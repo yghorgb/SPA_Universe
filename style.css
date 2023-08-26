@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 62.5%;
+}
+
+body, a, button {
+  font-family: 'Roboto', sans-serif;
+}
+
+#app {
+  height: 100vh;
+  width: 100%;
+}
+
+nav a {
+  font-weight: 700;
+  font-size: 2.4rem;
+  line-height: 2.2rem;
+
+  text-decoration: none;
+  color: #FFF;
+}
+
+nav {
+  padding: 4rem 7.2rem;
+  position: absolute;
+  display: flex;
+  align-items: center;
+  gap: 5.4rem;
+}
+
+.home {
+  background-image: url("./assets/mountains-universe-1.png");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  color: #fff;
+}
+
+.home h1 {
+  font-size: 4.8rem;
+  line-height: 6rem;
+  margin-bottom: 2.4rem;
+}
+
+.home h2 {
+  font-size: 4.8rem;
+  line-height: 6rem;
+}
+
+.home button {
+  background: transparent;
+  border-radius: .5rem;
+  border: .2rem solid #FFF;
+  
+  padding: 1.2rem 3.2rem;
+
+  font-size: 1.4rem;
+  color: #fff;
+  line-height: 2.4rem;
+
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.universe {
+  background-image: url("./assets/mountains-universe-2.png");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+
+  padding-left: 10rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  color: #fff;
+}
+
+.universe h2 {
+  font-size: 4.8rem;
+  line-height: 6rem;
+  font-weight: 700;
+
+  margin-bottom: 1.6rem;
+}
+
+.universe p {
+  width: 64rem;
+  font-size: 1.8rem;
+  line-height: 2.9rem;
+}
+
+.explorer {
+  background-image: url("./assets/mountains-universe-3.png");
+  background-position: center;
+  background-size: cover;
+  height: 100%;
+  overflow: hidden;
+
+  padding-left: 10rem;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  color: #fff;
+}
+
+.explorer h2 {
+  font-size: 4.8rem;
+  line-height: 6rem;
+  font-weight: 700;
+
+  margin-bottom: 1.6rem;
+}
+
+.explorer p {
+  width: 64rem;
+  font-size: 1.8rem;
+  line-height: 2.9rem;
+}

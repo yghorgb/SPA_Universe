@@ -1,5 +1,5 @@
 {
-  "name": "spa_concept",
+  "name": "spa_universe",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -10,7 +10,6 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "lite-server": "^2.6.1",
-    "live-server": "^1.2.2"
+    "lite-server": "^2.6.1"
   }
 }
